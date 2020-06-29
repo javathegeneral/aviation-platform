@@ -1,10 +1,8 @@
 package com.aviation.controller;
 
 import com.aviation.entity.Airplane;
-import com.aviation.entity.Airport;
-import com.aviation.entity.ApiError;
+import com.aviation.controller.error.ApiError;
 import com.aviation.repository.AirplaneRepository;
-import com.aviation.repository.AirportRepository;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
